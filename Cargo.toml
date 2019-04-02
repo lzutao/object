@@ -15,8 +15,9 @@ uuid = { version = "0.7", default-features = false }
 flate2 = { version = "1", optional = true }
 
 [dependencies.goblin]
-git = "https://github.com/m4b/goblin"
-branch = "master"
+path = "../goblin"
+# git = "https://github.com/m4b/goblin"
+# branch = "master"
 version = "0.0.21"
 default-features = false
 features = ["endian_fd", "elf32", "elf64", "mach32", "mach64", "pe32", "pe64", "archive"]
